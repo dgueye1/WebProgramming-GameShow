@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title>Web Programming Game Show</title>
+	<link rel="stylesheet" type="text/css" href="gameshowcss.css">
+</head>
+<body>
+	<div class="Mmain">
+		<header>
+			<h1>Web Programming Game Show!</h1>
+			<form action="logout.php" method="get">
+        <button type="submit">Logout</button>  
+      </form>
+		</header>
+		<br>
+		<form action="leaderboard.php" method="post">
+		<div class="Question1">
+			<h3>Question 1: How can we divide everything in a box using HTML?  </h3>
+			<ol>
+				<li>
+				<input type="radio" name="q1" value="1" /> div
+				</li>
+				<li>
+				<input type="radio" name="q1" value="2" /> p
+				</li>
+				<li>
+				<input type="radio" name="q1" value="3" /> h1
+				</li>
+			</ol>
+		</div>
+		<br><br><br>
+		<div class="Question2">
+			<h3>Question 2: How can we create a header in html?</h3>
+			<ol>
+				<li>
+				<input type="radio" name="q2" value="1" /> h1
+				</li>
+				<li>
+				<input type="radio" name="q2" value="2" />header
+				</li>
+				<li>
+				<input type="radio" name="q2" value="3" />title
+				</li>
+			</ol>
+		</div>
+		<br><br><br>
+		<div class="Question3">
+			<h3>Question 3: What language do you learn in Web Programming?</h3>
+			<ol>
+				<li>
+				<input type="radio" name="q3" value="1" /> Python
+				</li>
+				<li>
+				<input type="radio" name="q3" value="2" /> PHP
+				</li>
+				<li>
+				<input type="radio" name="q3" value="3" /> C++
+				</li>
+			</ol>
+		</div>
+		<br><br>
+		<div class = "submit_div">
+			<input type="submit" value="Submit" name="submit" class="submit_button"/>
+		</div>
+	</form>
+	</div>
+
+</body>
+</html>

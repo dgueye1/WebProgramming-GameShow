@@ -1,0 +1,79 @@
+@keyframes headder {
+  from {color: blue;}
+  to {color: red;}
+}
+body{
+	background: url("html tag.png") left repeat-y,
+	url("html tag.png") right repeat-y;
+}
+
+header{
+	text-align: center;
+	color: red;
+	font-size:x-large;
+	animation-name: headder;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+h2{
+	text-align: center;
+	color: red;
+
+}
+
+h3{
+	text-align: center;
+}
+
+li{
+	text-align: left;
+}
+
+.Mmain{
+	text-align: center;
+}
+
+.Question1{
+	border: 3px outset black;
+	background-color: lightblue;
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	font-size: 20px;
+}
+
+.Question2{
+	border: 3px outset black;
+	background-color: lightblue;
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	font-size: 20px;
+}
+
+
+.Question3{
+	border: 3px outset black;
+	background-color: lightblue;
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	font-size: 20px;
+}
+
+.submit_button{
+	background-color: blue;
+	color: white;
+	height: 50px;
+	width: 80px;
+	font-size: 16px;
+	margin: auto;
+}
+
+.submit_div{
+	height: 50px;
+	width: 90px;
+	margin: auto;
+}

@@ -1,0 +1,48 @@
+table{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 1.2em;
+}
+p, h2, h1{
+  text-align: center;
+}
+button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+body{
+	background: url("html tag.png") left repeat-y,
+	url("html tag.png") right repeat-y;
+}
+p{
+  font-size: 1.5em;
+  background-color: #6495ED;
+  color: white;
+  width: 500px;
+  border: 2px solid black;
+  margin: auto;
+}
+h2{
+  background-color: yellow;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  color: red;
+  animation-name: titleName;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes titleName {
+  from {color: blue;}
+  to {color: red;}
+}
+#topscore{
+  font-size: 2em;
+  background-color: yellow;
+  color: black;
+}
